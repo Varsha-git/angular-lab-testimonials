@@ -1,0 +1,73 @@
+.testimonials{
+  width:80%;
+  margin: auto;
+}
+
+.container , .form-container{
+
+  background-color: rgba(175, 182, 182, 0.068);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 16px 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+.form-container
+{
+background-color:white;
+border-bottom-right-radius: 75px;
+border-top-left-radius: 75px;
+border-width: 0.1px;
+border: solid rgba(128, 128, 128, 0.137);
+box-shadow: rgba(231, 231, 231, 0.274) 10px 10px 20px;
+}
+
+hr {
+  border: 1px solid rgb(199, 192, 192);
+  border-radius: 4px;
+}
+
+.container img {
+  float: left;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+  
+}
+
+
+.container p span {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.container p {
+  padding: 0em 4em;
+}
+
+article {
+  padding-top: 1em;
+}
+
+/* form styling */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.button {
+  width: 6em;
+  border: 0;
+  height: 2.5em;
+  background-color: #eb1132;
+  color: white;
+  font-weight: bolder;
+}
